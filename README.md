@@ -81,7 +81,7 @@ npm some-command-to-run
 
 <td align="center">
 <a href="https://github.com/SabbirAhmedAhad">
-<img src="https://avatars.githubusercontent.com/u/148763546?v=4" width="100px;" alt="SabbirAhmedAhad Profile Picture"/><br>
+<img src="https://avatars.githubusercontent.com/u/148763546?v=4" width="100px;" alt="Sabbir Ahmed Ahad Profile Picture"/><br>
 <sub>
 <b>Md. Sabbir Ahmed</b>
 </sub>
@@ -90,7 +90,7 @@ npm some-command-to-run
 
 <td align="center">
 <a href="https://github.com/tasnimjabir">
-<img src="https://avatars.githubusercontent.com/u/217354360?v=4" width="100px;" alt="Saikat Profile Picture"/><br>
+<img src="https://avatars.githubusercontent.com/u/217354360?v=4" width="100px;" alt="Tasnim Profile Picture"/><br>
 <sub>
 <b>Tasnim Jabir</b>
 </sub>
@@ -98,10 +98,10 @@ npm some-command-to-run
 </td>
 
 <td align="center">
-<a href="https://github.com/azim622">
-<img src="https://avatars.githubusercontent.com/u/155179920?v=4" width="100px;" alt="Azim Profile Picture"/><br>
+<a href="https://github.com/shakibsazzad">
+<img src="https://avatars.githubusercontent.com/u/227855443?v=4" width="100px;" alt="Sazzad Profile Picture"/><br>
 <sub>
-<b>Md. Fazle Azim</b>
+<b>Sazzad Ibnul Shakib</b>
 </sub>
 </a>
 </td>
