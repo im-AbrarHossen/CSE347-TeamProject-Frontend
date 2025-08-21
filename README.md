@@ -7,10 +7,10 @@
 <a href="#contribute">Contribute</a> 
 </p>
 
-<p align="center">AgroSphere is a digital E-Agriculture platform designed to help farmers enhance their agricultural productivity by providing real-time market trends, AI-powered crop advisory, weather alerts, and a seamless e-commerce marketplace for farming supplies. The goal is to create a user-friendly platform that empowers farmers with modern agricultural knowledge and tools, enabling them to make informed decisions. This platform will serve as a one-stop solution for farmers, agronomists, and agricultural suppliers by integrating the latest technology, such as AI and Redux, for efficient data management and user experience. Farmers can track market prices, get expert advice, buy essential farming products, and stay updated with weather conditions and local agricultural events.</p>
+<p align="center">AgroLink Market is an online platform that empowers Bangladeshi farmers by allowing them to sell their agricultural products directly to buyers (wholesalers, retailers, or consumers). It aims to eliminate intermediaries and ensure fair pricing. The platform also includes a built-in technical support system where farmers can raise basic product or platform-related issues and get expert assistance.</p>
 
 <p align="center">
-<a href="https://agrosphere-4564a.web.app/">📱 Visit this Project</a>
+<a href="https://agrolink-1e620.web.app/">📱 Visit this Project</a>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
@@ -26,9 +26,6 @@
 
 - React
 - Tailwind CSS
-- Socket.IO
-- TanStack Query
-- Redux Toolkit
 - React Router
 - Axios
 - Firebase
@@ -55,7 +52,7 @@ Here we list all prerequisites necessary for running our project. For example:
 How to clone our project
 
 ```bash
-git clone https://github.com/WalidurTanjim/agroSphere.git
+git clone https://github.com/im-AbrarHossen/CSE347-TeamProject-Frontend.git
 ```
 
 <h3>Starting</h3>
@@ -125,7 +122,7 @@ npm some-command-to-run
 
 Here we will explain how other developers can contribute to your project. For example, explaining how can create their branches, which patterns to follow and how to open an pull request
 
-1. `git clone https://github.com/WalidurTanjim/agroSphere.git`
+1. `git clone https://github.com/im-AbrarHossen/CSE347-TeamProject-Frontend.git`
 2. `git checkout -b feature/NAME`
 3. Follow commit patterns
 4. Open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
