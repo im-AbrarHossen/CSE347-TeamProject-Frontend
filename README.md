@@ -83,10 +83,10 @@ npm some-command-to-run
 </td>
 
 <td align="center">
-<a href="https://github.com/WalidurTanjim">
-<img src="https://avatars.githubusercontent.com/u/64366750?v=4" width="100px;" alt="WalidurTanjim Profile Picture"/><br>
+<a href="https://github.com/SabbirAhmedAhad">
+<img src="https://avatars.githubusercontent.com/u/148763546?v=4" width="100px;" alt="SabbirAhmedAhad Profile Picture"/><br>
 <sub>
-<b>Walidur Tanjim</b>
+<b>Md. Sabbir Ahmed</b>
 </sub>
 </a>
 </td>
