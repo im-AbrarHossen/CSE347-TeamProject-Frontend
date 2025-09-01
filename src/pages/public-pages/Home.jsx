@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../../components/navbar';
+import Navbar from '../../components/Navbar';
 import { Link } from 'react-router-dom';
 import bgImg from '../../assets/Images/agri-bg.gif';
 
@@ -12,7 +12,7 @@ const Home = () => {
                 style={{ backgroundImage: `url(${bgImg})` }}
             >
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-black/60"></div>
+                <div className="absolute inset-0 bg-black/50"></div>
 
                 {/* Content */}
                 <div className="relative z-10 text-center text-white px-6">
@@ -23,7 +23,7 @@ const Home = () => {
                     </p>
                     <div className='flex items-center justify-center'>
                         <Link to="/login">
-                            <button className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700">
+                            <button className="btn bg-[#7aad37] text-white rounded-lg shadow-lg hover:bg-[#a0d167]">
                                 Get started
                             </button>
                         </Link>
