@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../../components/navbar';
+import Navbar from '../../components/Navbar';
 import Agri from '../../assets/Images/agriculture.webp'
 
 const About = () => {
