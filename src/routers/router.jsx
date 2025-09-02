@@ -6,6 +6,8 @@ import Login from "../Authentication/Login";
 import Register from "../Authentication/Register";
 import HelpAndSupport from "../pages/public-pages/HelpAndSupport";
 import Marketplace from "../pages/public-pages/Marketplace";
+import PrivateRouter from "./PrivateRouter";
+import CartPage from "../pages/private-pages/CartPage";
 
 const router = createBrowserRouter([
     {
@@ -31,6 +33,12 @@ const router = createBrowserRouter([
     {
         path: "/help-and-support",
         element: <HelpAndSupport></HelpAndSupport>
+    },
+    {
+        path: "/cart",
+        element: <PrivateRouter>
+            <CartPage></CartPage>
+        </PrivateRouter>
     },
 ]);
 export default router;

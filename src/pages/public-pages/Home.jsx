@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Navbar from '../../components/Navbar';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import bgImg from '../../assets/Images/agri-bg.gif';
+import { AuthContext } from '../../providers/AuthProvider';
 
 const Home = () => {
+    const { user } = useContext(AuthContext);
+    const navigate = useNavigate();
+    const handleClick = () => {
+        if (user) {
+            navigate("/marketplace");
+        } else {
+            navigate("/login");
+        }
+    };
     return (
         <div>
             <Navbar />
@@ -21,12 +31,13 @@ const Home = () => {
                         An online marketplace that empowers farmers to sell directly to buyers,
                         ensuring fair pricing and access to technical support.
                     </p>
-                    <div className='flex items-center justify-center'>
-                        <Link to="/login">
-                            <button className="btn bg-[#7aad37] text-white rounded-lg shadow-lg hover:bg-[#a0d167]">
-                                Get started
-                            </button>
-                        </Link>
+                    <div className="flex items-center justify-center">
+                        <button
+                            onClick={handleClick}
+                            className="btn bg-[#7aad37] text-white rounded-lg shadow-lg hover:bg-[#a0d167]"
+                        >
+                            Get started
+                        </button>
                     </div>
                 </div>
             </div>
