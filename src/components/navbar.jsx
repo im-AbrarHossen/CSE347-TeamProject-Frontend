@@ -3,10 +3,13 @@ import { FaMoon, FaSun } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 import { ThemeContext } from '../providers/ThemeProvider';
 import Logo from '../assets/Images/logo.png';
+import { AuthContext } from '../providers/AuthProvider';
 
-const Navbar = () => {
+const Navbar = ({ cartCount }) => {
     const [isOpen, setIsOpen] = useState(false);
     const { theme, toggleTheme } = useContext(ThemeContext);
+    const { user } = useContext(AuthContext);
+    
 
     return (
         <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
@@ -25,14 +28,29 @@ const Navbar = () => {
                         )}
                     </button>
 
-                    <button className="text-white bg-[#7aad37] hover:bg-[#a0d167] btn rounded-lg">
-                        Get started
-                    </button>
+                    <div className="flex items-center gap-4">
+                        {user ? (
+                            <Link to="/cart" className="relative">
+                                <svg className="w-6 h-6" fill="none" stroke="#7aad37" viewBox="0 0 24 24">
+                                    <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9h14l-2-9M5 21h14" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                </svg>
+                                {cartCount > 0 && (
+                                    <span className="absolute -top-2 -right-2 bg-red-600 rounded-full w-5 h-5 flex items-center justify-center text-xs">
+                                        {cartCount}
+                                    </span>
+                                )}
+                            </Link>
+                        ) : (
+                            <Link to="/login" className="bg-[#7aad37] text-white btn">
+                                Login
+                            </Link>
+                        )}
+                    </div>
 
                     <button onClick={() => setIsOpen(!isOpen)} className="md:hidden p-2">
                         <svg className="w-5 h-5" fill="none" viewBox="0 0 17 14">
                             <path stroke="#7aad37" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                  d="M1 1h15M1 7h15M1 13h15" />
+                                d="M1 1h15M1 7h15M1 13h15" />
                         </svg>
                     </button>
                 </div>
