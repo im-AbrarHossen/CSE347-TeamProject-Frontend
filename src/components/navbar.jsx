@@ -57,8 +57,8 @@ const Navbar = ({ cartCount }) => {
 
                 <div className={`${isOpen ? "block" : "hidden"} md:flex md:w-auto md:order-1`}>
                     <ul className="flex flex-col md:flex-row md:space-x-8 p-4 md:p-0 mt-4 md:mt-0 bg-gray-50 dark:bg-gray-800 rounded-lg md:bg-white md:dark:bg-gray-900 border md:border-0 border-gray-100 dark:border-gray-700">
-                        {["/", "/about", "/marketplace", "/help-and-support"].map((path, i) => {
-                            const name = ["Home", "About", "Marketplace", "Help & Support"][i];
+                        {["/", "/about", "/marketplace", "/help-and-support", "/your-profile"].map((path, i) => {
+                            const name = ["Home", "About", "Marketplace", "Help & Support", "Settings"][i];
                             return (
                                 <li key={i}>
                                     <NavLink to={path} className={({ isActive }) =>
