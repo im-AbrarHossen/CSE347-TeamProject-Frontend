@@ -4,6 +4,7 @@ import { AuthContext } from "../../providers/AuthProvider";
 import { useCart } from "../../providers/CartProvider";
 import { ThemeContext } from "../../providers/ThemeProvider";
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 const CartPage = () => {
     const { user } = useContext(AuthContext);
@@ -84,6 +85,7 @@ const CartPage = () => {
                     </div>
                 )}
             </div>
+            <Footer></Footer>
         </div>
     );
 };

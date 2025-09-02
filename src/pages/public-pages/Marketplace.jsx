@@ -4,6 +4,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import { useCart } from "../../providers/CartProvider";
+import Footer from "../../components/Footer";
 
 const categories = ["All", "Fertilizer", "Waste"];
 
@@ -150,9 +151,7 @@ const Marketplace = () => {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-6 text-center text-sm sm:text-base">
-        <p>© 2025 AgroMarketplace. All rights reserved.</p>
-      </footer>
+      <Footer></Footer>
     </div>
   );
 };
