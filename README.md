@@ -17,9 +17,9 @@
 
 <p align="center">
 
-<img src="https://i.postimg.cc/DmkBLfs7/Screenshot-2025-04-30-211225.png" alt="Random Image" width="400px">
-<img src="https://i.postimg.cc/qqjvCqW3/Screenshot-2025-04-30-205938.png" alt="Random Image" width="400px">
-<img src="https://i.postimg.cc/PxdHzhWz/Screenshot-2025-04-30-210818.png" alt="Random Image" width="400px">
+<img src="https://i.postimg.cc/KY94Q7vB/Screenshot-2025-09-03-115454.png" alt="Random Image" width="400px">
+<img src="https://i.postimg.cc/wvhZg2ys/Screenshot-2025-09-03-115708.png" alt="Random Image" width="400px">
+<img src="https://i.postimg.cc/Znn8VKSK/Screenshot-2025-09-03-115841.png" alt="Random Image" width="400px">
 </p>
 
 <h2 id="technologies">💻 Technologies</h2>
@@ -107,10 +107,10 @@ npm some-command-to-run
 </td>
 
 <td align="center">
-<a href="https://github.com/Md-Mueid-Mia">
-<img src="https://avatars.githubusercontent.com/u/170161843?v=4" width="100px;" alt="Mueid Profile Picture"/><br>
+<a href="https://github.com/Shamim-Hossain170">
+<img src="https://avatars.githubusercontent.com/u/217421327?v=4" width="100px;"/><br>
 <sub>
-<b>Md Mueid Mia</b>
+<b>Shamim-Hossain</b>
 </sub>
 </a>
 </td>
